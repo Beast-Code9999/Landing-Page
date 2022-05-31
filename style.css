@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+  }
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.header-logo, .header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 36px;
+}
+
+.header-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.header-logo h2 {
+    color: white;
+    font-size: 18px;
+}
+
+.header-links ul {
+    display: flex;
+    gap: 16px;
+}
+
+.header-links li {
+    list-style-type: none;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+}
