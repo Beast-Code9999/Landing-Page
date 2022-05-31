@@ -45,6 +45,7 @@ header {
 section.landing {
     display: flex;
     background-image: url(./img/federico-beccari-L8126OwlroY-unsplash.jpg);
+    background-attachment: fixed;
     justify-content: center;
     height: 100vh;
 }
@@ -108,4 +109,9 @@ button:hover {
 
 .second-section a {
     color: white;
+}
+
+section.about {
+    display: flex;
+    flex-direction: column;
 }
