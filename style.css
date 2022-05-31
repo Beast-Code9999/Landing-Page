@@ -42,27 +42,70 @@ header {
     text-decoration: none;
 }
 
-section .hero .landing {
+section.landing {
     display: flex;
-    background-image: ;
-    
+    background-image: url(./img/federico-beccari-L8126OwlroY-unsplash.jpg);
+    justify-content: center;
+    height: 100vh;
 }
 
-.hero .container {
+.hero.container {
     display: flex;
     padding: 44px;
-    gap: 16px;
-    background-color: rgba(0, 0, 0, 0.5);
+    gap: 100px;
+    background-color: rgba(99, 91, 91, 0.5);
     border-radius: 25px;
-    margin: 128px 80px;
+    margin: 58px 20px;
     justify-content: space-around;
     align-items: center;
 }
-.hero .first-section {
+.hero.first-section {
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hero.first-section h1 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+.hero.first-section p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+button {
+    padding: 16px;
+    border-radius: 10%;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .nasa-img {
     width: 400px;
     height: auto;
+    border-radius: 25px;
+}
+
+.hero.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-section p {
+    color: white;
+}
+
+.second-section a {
+    color: white;
 }
