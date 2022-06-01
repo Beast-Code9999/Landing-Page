@@ -4,6 +4,8 @@ body {
     font-family: Besley, serif;
   }
 
+  /* Header */
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -41,6 +43,9 @@ header {
     color: white;
     text-decoration: none;
 }
+
+/* End of header */
+/* Beginning of Hero section */
 
 section.landing {
     display: flex;
@@ -80,8 +85,6 @@ section.landing {
     font-size: 20px;
 }
 
-
-
 button {
     padding: 16px;
     border-radius: 10%;
@@ -110,6 +113,9 @@ button:hover {
 .second-section a {
     color: white;
 }
+
+/* End of hero section */
+/* Beginning of About section */
 
 section.about {
     display: flex;
@@ -158,3 +164,6 @@ section.about {
     text-align: center;
 
 }
+
+/* End of About section */
+/* Beginnign of Quote section */
