@@ -167,3 +167,40 @@ section.about {
 
 /* End of About section */
 /* Beginnign of Quote section */
+
+section.quote {
+    background-image: url(./img/quote/aldebaran-s-qtRF_RxCAo0-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 69vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+section.quote div {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote .wisdom p{
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.quote .wisdomer p {
+    color: white;
+    margin-top: 16px; 
+}
+
+/* End of quote section */
+/* Beginning of Contact section */
+
+
