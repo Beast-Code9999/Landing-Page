@@ -15,3 +15,7 @@ https://unsplash.com/photos/UeSpvB0Qo88?utm_source=unsplash&utm_medium=referral&
 
 - Photo by Tengyart on Unsplash: 
 https://unsplash.com/photos/PmnCG7_2Sc4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+Quote section:
+- Photo by Aldebaran S on Unsplash
+https://unsplash.com/photos/qtRF_RxCAo0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink

@@ -215,7 +215,7 @@ section.quote div {
 
 section.contact {
     background-image: linear-gradient(to top, black, #1F2937);
-    padding: 64px;
+    padding: 64px 128px;
 }
 
 .contact-container {
@@ -244,4 +244,18 @@ section.contact {
     color: black;
     background-color: white;
     transition: all 1s;
+}
+/* End of Contact section */
+/* Beginning of footer */
+
+footer {
+    padding: 32px;
+    background-color: #405066;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    color: white;
 }
