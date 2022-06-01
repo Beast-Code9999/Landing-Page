@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: #eee;
     font-family: Besley, serif;
+    padding-top: 100px;
   }
 
   /* Header */
@@ -11,6 +12,9 @@ header {
     display: flex;
     padding: 8px;
     justify-content: space-between;
+    top: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .header-logo, .header-links {
@@ -42,6 +46,12 @@ header {
 .header-links a {
     color: white;
     text-decoration: none;
+    margin: 5px;
+}
+
+.header-links a:hover {
+    transition: all 0.5s ease-out;
+    border-bottom: 2px solid #3882F6;
 }
 
 /* End of header */
